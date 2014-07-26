@@ -1,0 +1,26 @@
+// No module files are included here
+// Use this partial to access all the Brand Partials
+
+// ==========================================================================
+//   Partials
+// ==========================================================================
+
+
+// Brand Partials
+// ==========================================================================
+@import "Brand-Partials/common.scss";
+@import "Brand-Partials/footer.scss";
+@import "Brand-Partials/header.scss";
+@import "Brand-Partials/ie.scss";
+@import "Brand-Partials/navigation.scss";
+@import "Brand-Partials/typography.scss";
+
+
+// ==========================================================================
+//   Components
+// ==========================================================================
+
+// Brand Components
+// ==========================================================================
+@import "Brand-components/{{component}}.scss";
+

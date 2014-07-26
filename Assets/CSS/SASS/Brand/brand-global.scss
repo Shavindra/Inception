@@ -1,0 +1,50 @@
+// ==========================================================================
+//   Modules
+// ==========================================================================
+
+
+// Default Modules
+// ==========================================================================
+
+@import "../Default/modules/global-mixins"
+@import "../Default/modules/global-vars"
+@import "../Default/modules/grid-mixins"
+@import "../Default/modules/grid-vars"
+
+
+// Brand Modules
+// ==========================================================================
+// These will override any default modules
+@import "brand-modules/brand-mixins"
+@import "brand-modules/brand-vars"
+
+// ==========================================================================
+//   Modules
+// ==========================================================================
+
+
+// Default Modules
+// ==========================================================================
+   
+//@import "../Default/partials/common"
+//@import "../Default/partials/grid"
+//@import "../Default/partials/grid-desktop"
+//@import "../Default/partials/grid-mobile"
+//@import "../Default/partials/reset"
+@import "../Default/default"
+    
+
+// Brand Modules
+// ==========================================================================
+@import "Brand-Partials/common.scss";
+@import "Brand-Partials/footer.scss";
+@import "Brand-Partials/header.scss";
+@import "Brand-Partials/ie.scss";
+@import "Brand-Partials/navigation.scss";
+@import "Brand-Partials/typography.scss";
+
+// Brand Components
+// ==========================================================================
+@import "Brand-components/{{component}}.scss";
+
+
