@@ -1,0 +1,5 @@
+<label for="name">
+    <span>Name: </span>
+    <input type="text" id="name" name="username" placeholder="username" tabindex="1" required />
+    <abbr title="required">*</abbr>
+</label>

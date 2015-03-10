@@ -1,0 +1,4 @@
+<div class="error-msgs" data-inc-msg="{{}}">
+    <span class="msg-error msg-required">Error message goes here</span>
+    <span class="msg-error msg-required">Error message goes here</span>
+</div>

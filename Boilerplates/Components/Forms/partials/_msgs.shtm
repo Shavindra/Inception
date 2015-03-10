@@ -1,0 +1,5 @@
+<div class="val-grp">
+    <!-- #include file="_msgs/_msgs-error.shtm" -->
+    <!-- #include file="_msgs/_msgs-warning.shtm" -->
+    <!-- #include file="_msgs/_msgs-success.shtm" -->
+</div>

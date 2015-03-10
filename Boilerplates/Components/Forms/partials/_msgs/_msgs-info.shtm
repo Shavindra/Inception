@@ -1,0 +1,5 @@
+
+<div class="info-msgs" data-inc-msg="{{}}">
+    <i class="ico-info"> i </i>
+    <span class="msg-info">Info message goes here</span>
+</div>

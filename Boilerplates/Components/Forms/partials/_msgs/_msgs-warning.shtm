@@ -1,0 +1,3 @@
+<div class="warning-msgs" data-inc-msg="{{}}">
+    <span class="msg-warning">warning message goes here</span>
+</div>
