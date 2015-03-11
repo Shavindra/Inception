@@ -1,0 +1,6 @@
+<div class="input-grp dob">
+    <!-- #include file="partials/_input-select/_select-day.shtm" -->
+    <!-- #include file="partials/_input-select/_select-month.shtm" -->
+    <!-- #include file="partials/_input-select/_select-year.shtm" -->
+
+</div>

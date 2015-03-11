@@ -1,0 +1,10 @@
+<h2>{{Section Title}}</h2>
+
+<!-- #include file="/boilerplates/components/forms/partials/_form-section-header.shtm" -->
+
+<p class="intro">
+    {{Intro Paragraph Goes here}}
+</p>
+
+
+<progress value="{{section-val}}" max="{{total-sections}}">0 %</progress>

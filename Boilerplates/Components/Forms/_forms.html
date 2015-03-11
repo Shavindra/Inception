@@ -4,30 +4,25 @@
 
 <form action="" class="form-{{form-Name}}">
     <section class="form-step-{{step no}}">
-        <h2>Section titles</h2>
-        <progress value="0" max="25">0 %</progress>
-        <p class="intro">
-
-        </p>
+        
+        <!-- #include file="/boilerplates/components/forms/partials/_form-section-header.shtm" -->
 
         <fieldset class="{{fieldset-Name}}">
-            <legend>
-                Legend Goes here
-            </legend>
+            
             <div class="input-field" class="input-{{field-name}}">
                 <p class="field-intro">
                     Donec id ornare orci. Quisque venenatis, ante in tincidunt porta, tortor sapien malesuada tortor, at malesuada tellus augue vel ex. Pellentesque eu ornare orci, a dapibus velit. Cras auctor eu arcu vitae suscipit.
                 </p>
-                <!-- #include file="partials/_input-text/_input-name.shtm" -->
-                <!-- #include file="partials/_msgs/_msgs-info.shtm" -->
-                <!-- #include file="partials/_msgs.shtm" -->
 
+                <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-name.shtm" -->
+                <!-- #include file="/boilerplates/components/forms/elements/_msgs/_msgs-info.shtm" -->
+                <!-- #include file="/boilerplates/components/forms/elements/_msgs.shtm" -->
 
             </div>
             <div class="input-field">
-                <!-- #include file="partials/_input-text/_input-email.shtm" -->
-                <!-- #include file="partials/_msgs/_msgs-info.shtm" -->
-                <!-- #include file="partials/_msgs.shtm" -->
+                <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-email.shtm" -->
+                <!-- #include file="/boilerplates/components/forms/elements/_msgs/_msgs-info.shtm" -->
+                <!-- #include file="/boilerplates/components/forms/elements/_msgs.shtm" -->
             </div>
 
         </fieldset>
@@ -35,19 +30,7 @@
             <legend>
                 Second Legend goes here
             </legend>
-            <div class="input-grp dob">
-                <div class="input-field day">
-                    <label for="card">
-                        <span>Card type:</span>
-                        <select id="card" name="usercard">
-                            <option value="visa">Visa</option>
-                            <option value="mc">Mastercard</option>
-                            <option value="amex">American Express</option>
-                        </select>
-                    </label>
-
-                </div>
-            </div>
+                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-dob.shtm" -->
 
         </fieldset>
         <fieldset class="{{fieldset-Name}}">

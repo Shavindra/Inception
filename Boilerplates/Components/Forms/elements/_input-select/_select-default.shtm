@@ -1,0 +1,13 @@
+<div class="input-field {{select-ID}}">
+    <label for="{{select-ID}}">
+        <span>Year:</span>
+        <select id="{{select-ID}}" name="{{select-ID}}">
+            <option value="{{value[0]}}">{{value[0]}}</option>
+            <option value="{{value[1]}}">{{value[1]}}</option>
+            <option value="{{value[2]}}">{{value[2]}}</option>
+            <option value="{{value[3]}}">{{value[3]}}</option>
+            <option value="{{value[4]}}">{{value[4]}}</option>
+            <option value="{{value[5]}}">{{value[5]}}</option>
+        </select>
+    </label>
+</div>

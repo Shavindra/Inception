@@ -1,0 +1,5 @@
+<h2>{{Section Title}}</h2>
+
+<p class="intro">
+    {{Intro Paragraph Goes here}}
+</p>
