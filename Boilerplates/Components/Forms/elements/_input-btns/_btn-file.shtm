@@ -1,8 +1,8 @@
 <!-- REF: http://www.w3.org/TR/html-markup/input.hidden.html -->
    <label for="hidden">
-    <span>Hidden Field: </span>
+    <span>Upload File: </span>
     <input
-         type="hidden" 
+         type="file" 
          id="hidden" 
          name="hidden_value" 
          tabindex="2" 

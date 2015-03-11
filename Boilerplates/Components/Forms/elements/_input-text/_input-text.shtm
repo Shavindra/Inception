@@ -1,5 +1,5 @@
 <label for="{{input-id}}">
-    <span aria-labelled="{{input-id}}">Name: </span>
+    <span aria-labelled="{{input-id}}">Text: </span>
     <input type="text" id="{{input-id}}" name="{{input-id}}" placeholder="{{input-placeholder}}" tabindex="{{tab-index}}" {{input-required}} />
     <abbr title="{{input-required}}">*</abbr>
 </label>

@@ -4,39 +4,42 @@
 
 <form action="" class="form-{{form-Name}}">
     <section class="form-step-{{step no}}">
-        
+
         <!-- #include file="/boilerplates/components/forms/partials/_form-section-header.shtm" -->
 
         <fieldset class="{{fieldset-Name}}">
-            
-            <div class="input-field" class="input-{{field-name}}">
-                <p class="field-intro">
-                    Donec id ornare orci. Quisque venenatis, ante in tincidunt porta, tortor sapien malesuada tortor, at malesuada tellus augue vel ex. Pellentesque eu ornare orci, a dapibus velit. Cras auctor eu arcu vitae suscipit.
-                </p>
+            <legend>
+                Input Fields
+            </legend>
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-text.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-name.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-email.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-hidden.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-password.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-text/_field-search.shtm" -->
 
-                <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-name.shtm" -->
-                <!-- #include file="/boilerplates/components/forms/elements/_msgs/_msgs-info.shtm" -->
-                <!-- #include file="/boilerplates/components/forms/elements/_msgs.shtm" -->
+        </fieldset>
+        <fieldset class="fieldset-btns">
+            <legend>
+                Buttons
+            </legend>
 
-            </div>
-            <div class="input-field">
-                <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-email.shtm" -->
-                <!-- #include file="/boilerplates/components/forms/elements/_msgs/_msgs-info.shtm" -->
-                <!-- #include file="/boilerplates/components/forms/elements/_msgs.shtm" -->
-            </div>
+            <!-- #include file="/boilerplates/components/forms/partials/_input-btns/_field-image.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-btns/_field-file.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-btns/_field-next.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-btns/_field-prev.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_input-btns/_field-submit.shtm" -->
 
         </fieldset>
         <fieldset class="{{fieldset-Name}}">
             <legend>
                 Second Legend goes here
             </legend>
-                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-dob.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-dob.shtm" -->
 
         </fieldset>
         <fieldset class="{{fieldset-Name}}">
-            <legend>
-                Second Legend goes here
-            </legend>
+
             <p>
 
             </p>

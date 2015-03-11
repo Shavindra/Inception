@@ -1,0 +1,3 @@
+<div class="input-field input-hidden">
+    <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-hidden.shtm" -->
+</div>

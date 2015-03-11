@@ -1,5 +1,4 @@
-<label for="{{input-id}}">
-    <span aria-labelled="{{input-id}}">Name: </span>
-    <input type="text" id="{{input-id}}" name="{{input-id}}" placeholder="{{input-placeholder}}" tabindex="{{tab-index}}" {{input-required}} />
-    <abbr title="{{input-required}}">*</abbr>
+<label for="search">
+    <span>Search Term: </span>
+    <input type="search" id="search" name="search" placeholder="Search Term" tabindex="1" required />
 </label>

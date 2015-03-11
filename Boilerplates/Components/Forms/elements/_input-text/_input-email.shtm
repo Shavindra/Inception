@@ -1,5 +1,5 @@
 <label for="email">
-    <span>email: </span>
-    <input type="email" id="name" name="email" placeholder="username" tabindex="2" required />
+    <span>Email: </span>
+    <input type="text" id="email" name="email" placeholder="email" tabindex="1" required />
     <abbr title="required">*</abbr>
 </label>

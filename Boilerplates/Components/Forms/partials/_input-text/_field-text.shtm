@@ -1,0 +1,4 @@
+<div class="input-field" class="input-{{field-name}}">
+    <!-- #include file="/boilerplates/components/forms/elements/_input-text/_input-text.shtm" -->
+
+</div>
