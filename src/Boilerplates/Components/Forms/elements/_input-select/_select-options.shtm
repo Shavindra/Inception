@@ -1,0 +1,11 @@
+<label for="options">
+    <span>Select options:</span>
+    <select id="options" name="options">
+        <option value="" class="opt1">Option 1</option>
+        <option value="" class="opt2">Option 2</option>
+        <option value="" class="opt3">Option 3</option>
+        <option value="" class="opt4">Option 4</option>
+        <option value="" class="opt5">Option 5</option>
+    </select>
+</label>
+

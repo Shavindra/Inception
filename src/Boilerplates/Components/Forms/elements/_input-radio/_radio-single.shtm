@@ -1,0 +1,6 @@
+<label for="rad">
+    <input type="radio" name="checkboxs" value="{{input-val}}" id="rad">
+    <span aria-labelled="rad">Radio Label goes here: </span>
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+

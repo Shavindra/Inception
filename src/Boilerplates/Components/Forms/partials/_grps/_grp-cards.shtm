@@ -1,0 +1,13 @@
+<div class="input-grp dob">
+    <div class="input-field day">
+        <label for="card">
+            <span>Card type:</span>
+            <select id="card" name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+            </select>
+        </label>
+
+    </div>
+</div>

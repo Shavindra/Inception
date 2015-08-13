@@ -1,0 +1,1 @@
+<a type="button" value="{{btn-value}}" onclick="{{}}" >  Link button </a>

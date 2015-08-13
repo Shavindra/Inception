@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css">
+
+<h1>Form HTML components</h1>
+
+<form action="" class="form-{{form-Name}}">
+    <section class="form-step-{{step no}}">
+
+        <!-- #include file="/boilerplates/components/forms/partials/_form-section-header.shtm" -->
+
+        <fieldset class="{{fieldset-Name}}">
+            <legend>
+                Input Fields
+            </legend>
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-text.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-name.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-email.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-hidden.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-password.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-text/_field-search.shtm" -->
+
+        </fieldset>
+        <fieldset class="fieldset-btns">
+            <legend>
+                Buttons
+            </legend>
+
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-image.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-file.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-next.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-prev.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-submit.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-reset.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-btns/_field-btnLink.shtm" -->
+
+        </fieldset>
+        <fieldset class="fieldset-btns">
+            <legend>
+                Select
+            </legend>
+            <!-- #include file="/boilerplates/components/forms/elements/_input-select/_select-optgroup.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/elements/_input-select/_select-options.shtm" -->
+
+        </fieldset>
+        <fieldset class="fieldset-checkbox">
+            <legend>
+                Checkboxes / Radio
+            </legend>
+
+
+            <!-- #include file="/boilerplates/components/forms/partials/_field-checkboxes/_field-checkbox.shtm" -->
+            <!-- #include file="/boilerplates/components/forms/partials/_field-radio/_field-radio.shtm" -->
+
+        </fieldset>
+        <fieldset class="{{fieldset-Name}}">
+            <legend>
+                Groups
+            </legend>
+
+            <fieldset>
+                <legend>text groups</legend>
+                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-dob.shtm" -->
+            </fieldset>
+            <fieldset>
+                <legend>Select groups</legend>
+                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-dob.shtm" -->
+            </fieldset>
+            <fieldset>
+                <legend>checkbox group</legend>
+                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-checkboxes.shtm" -->
+            </fieldset>
+            <fieldset>
+                <legend>radio button group</legend>
+                <!-- #include file="/boilerplates/components/forms/partials/_grps/_grp-radio.shtm" -->
+            </fieldset>
+
+        </fieldset>
+        <fieldset class="{{fieldset-Name}}">
+
+            <p>
+
+            </p>
+
+        </fieldset>
+    </section>
+</form>

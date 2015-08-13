@@ -1,0 +1,9 @@
+<div class="input-grp grp-checkbox">
+   
+       Group 
+   
+    <!-- #include file="/boilerplates/components/forms/elements/_input-checkbox/_checkbox-single.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-checkbox/_checkbox-single.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-checkbox/_checkbox-single.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-checkbox/_checkbox-single.shtm" -->
+</div>

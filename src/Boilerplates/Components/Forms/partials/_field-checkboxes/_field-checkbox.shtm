@@ -1,0 +1,3 @@
+<div class="input-field input-checkbox">
+    <!-- #include file="/boilerplates/components/forms/elements/_input-checkbox/_checkbox-single.shtm" -->
+</div>

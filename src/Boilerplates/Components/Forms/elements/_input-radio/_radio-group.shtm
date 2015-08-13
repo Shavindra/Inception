@@ -1,0 +1,23 @@
+<label for="rad1">
+    <input type="radio" name="rad-group" value="{{input-val}}" id="rad1">
+    <span aria-labelled="rad">Radio Label goes here: </span>
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+<label for="rad2">
+    <input type="radio" name="rad-group" value="{{input-val}}" id="rad2">
+    <span aria-labelled="rad">Radio Label goes here: </span>
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+
+<label for="rad3">
+    <input type="radio" name="rad-group" value="{{input-val}}" id="rad3">
+    <span aria-labelled="rad">Radio Label goes here: </span>
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+
+<label for="rad4">
+    <input type="radio" name="rad-group" value="{{input-val}}" id="rad4">
+    <span aria-labelled="rad">Radio Label goes here: </span>
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+

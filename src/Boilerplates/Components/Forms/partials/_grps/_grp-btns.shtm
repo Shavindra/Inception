@@ -1,0 +1,9 @@
+<div class="input-grp grp-btns">
+    <div class="grp-label">
+        <span>{{ Group label }}</span>
+    </div>
+    <!-- #include file="/boilerplates/components/forms/elements/_input-btns/_btn-action.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-btns/_btn-action.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-btns/_btn-action.shtm" -->
+    <!-- #include file="/boilerplates/components/forms/elements/_input-btns/_btn-action.shtm" -->
+</div>

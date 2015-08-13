@@ -1,0 +1,6 @@
+<label for="{{input-id}}">
+    <span aria-labelled="{{input-id}}">{{input-label}}: </span>
+    <input type="checkbox" name="{{input-name}}" value="{{input-val}}">
+    <abbr title="{{input-required}}">*</abbr>
+</label>
+
