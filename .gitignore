@@ -44,9 +44,12 @@ Temporary Items
 **/node_modules
 **/i18n
 **/vendor/**/docs
-**/angularrequireVS
-**/templates/**
+
 
 ./bower_components
 ./node_modules
 ./i18n
+
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
